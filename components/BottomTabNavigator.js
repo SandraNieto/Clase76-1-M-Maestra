@@ -19,9 +19,9 @@ export default class BottomTabNavigator extends Component {
               let iconName;
 
               if (route.name === "Transacción") {
-                iconName = "Libro";
+                iconName = "book";
               } else if (route.name === "Buscar") {
-                iconName = "Buscar";
+                iconName = "search";
               }
 
               // Puedes devolver cualquier componente que quieras aquí
